@@ -19,22 +19,24 @@
         <input type="text" name="email" id="email" /><br><br>
         
         <label for="tel">Telefon:</label>
-        <input type="text" name="tel" id="tel" /><br><br>
+        <input type="text" name="tel" id="tel" /><br>
         
-        <label for="city">Miasto:</label>
-        <select city="city">
+        <p>Miasto:</p>
+        <select name="city">
             <option value="Kraków">Kraków</option>
             <option value="Kraków">Warszawa</option>
             <option value="Kraków">Gdańsk</option>
         </select><br><br>
         
-        <label for="gender">Płeć:</label><br>
-            <input type="radio" name="gender" id="gender" value="male" checked>Mężczyzna<br>
-            <input type="radio" name="gender" id="gender" value="female" checked>Kobieta<br><br>
+        <p>Płeć:</p>
+           <label for="male">Mężczyzna</label><br>
+            <input type="radio" name="gender" id="male" value="male"><br>
+            <label for="female">Kobieta</label><br>
+            <input type="radio" name="gender" id="female" value="female"><br><br>
         
-        <label for="checkbox">Zgoda na dane osobowe:</label><br>
-        <input type="checkbox" name:"checkbox" id="checkbox" value="yes">Tak<br>
-        <input type="checkbox" name:"checkbox" id="checkbox" value="no">Nie<br><br>
+        <label for="checkbox">Zgoda na przetwarzanie danych osobowych:</label>
+        <input type="checkbox" id="checkbox"><br><br><br>
+        
         
         <label for="comment">Wiadomość:</label>
         <textarea rows="3" cols="50" name="comment" id="comment"> </textarea>
