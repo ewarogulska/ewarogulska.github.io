@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zapisy na szkolenie</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <form action="https://formspree.io/ewa.k.rogulska@gmail.com" method="post">
+
+            <label for="name">Imię:</label>
+            <input type="text" name="name" id="name" />
+
+            <label for="surname">Nazwisko:</label>
+            <input type="text" name="surname" id="surname" />
+
+            <label for="email">Mail:</label>
+            <input type="text" name="email" id="email" />
+
+            <label for="tel">Telefon:</label>
+            <input type="text" name="tel" id="tel" />
+
+            <p>Miasto:</p>
+            <select name="city">
+            <option value="Kraków">Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+            </select>
+
+            <p>Płeć:</p>
+            <label for="male">Mężczyzna</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Kobieta</label>
+            <input type="radio" name="gender" id="female" value="female">
+
+            <label for="comment">Wiadomość:</label>
+            <textarea rows="3" cols="50" name="comment" id="comment"> </textarea><br>
+
+            <input type="checkbox" value="yes" name="permission">
+            <label>Zgoda na przetwarzanie danych osobowych:</label><br>
+
+            <input type="submit" value="Wyślij" />
+
+        </form>
+
+    </div>
+</body>
+
+</html>

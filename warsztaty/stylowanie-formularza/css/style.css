@@ -1,0 +1,51 @@
+form {
+    background-color: #213b50;
+    width: 500px;
+    height: 600px;
+    color: white;
+    padding:20px;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 10px;
+}
+
+/*jak sie zrobi display block to nam zastepuje br w html*/
+form label {
+    display: block;
+}
+
+form textarea, form select, input[type="text"] {
+    background-color: #2b4a64;
+    width:300px;
+    height:25px;
+    outline: none;
+    border: none;
+/*    jak zrobimy outline none to nie ma tej obwolutki wokol pol formularza*/
+}
+
+form textarea:focus, form-select:focus, input[type="text"]:focus {
+    background-color: #4e708c;
+    border: 1px solid #2b4a64;
+}
+
+form select {
+    color: white;
+    margin-bottom: 10px;
+/*    to działa na kolory nazw miast*/
+}
+
+form input[type="checkbox"] {
+    float:left;
+}
+
+form input[type="submit"] {
+    background-color: #1ac056;
+    padding: 10px 20px;
+    height: 40px;
+    border: 1px solid #1ac056;
+    color: white;
+    text-transform: uppercase;
+    cursor:pointer;
+}
