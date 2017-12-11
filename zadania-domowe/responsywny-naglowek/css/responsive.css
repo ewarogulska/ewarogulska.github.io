@@ -1,0 +1,41 @@
+/*
+#photo {
+    width: 100%;
+}
+*/
+
+@media all and (max-width:991px) {
+#photo {
+       
+    background-image: url(../css/img/man-1.jpg);
+     width: 80%;
+    
+  
+   
+    }
+}
+
+@media all and (min-width: 992px) and (max-width:1169px) {
+#photo {
+        width: 100%;
+    background-image: url(../css/img/man-2.jpg);
+
+  
+    
+    }
+}
+
+@media all and (min-width:1170px) {
+    /*    lub media screen and...*/
+#photo {
+        width: 100%;
+     background-image: url(../css/img/man-1.jpg);
+      
+   
+    }
+}
+
+
+
+
+

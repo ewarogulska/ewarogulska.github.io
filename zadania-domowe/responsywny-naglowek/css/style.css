@@ -1,0 +1,46 @@
+/*
+#photo {
+    
+    padding-top: 0px;
+    
+}
+*/
+
+
+#photo .photo-small {
+    text-align:left;
+    padding-left: 0vh;
+   
+    font-family: "Verdana";
+    
+    height:100vh;
+
+    background-position:center;
+    background-size:cover;
+    
+    color:#fff;
+}
+
+#photo .photo-medium {
+    text-align:center;
+    padding: 0vh;
+    font-family: "Verdana";
+    
+      height:100vh;
+
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+}
+
+#photo .photo-big {
+    text-align:center;
+    padding: 0vh;
+    font-family: "Verdana";
+   
+      height:100vh;
+
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+}
