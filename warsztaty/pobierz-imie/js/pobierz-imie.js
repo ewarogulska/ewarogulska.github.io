@@ -1,19 +1,19 @@
 'use strict';
 
-var przycisk = document.getElementById('pobierzImie(event)');
+var przycisk = document.getElementById('formularz');
 console.log(przycisk);
 
 var imie = document.getElementById('imie');
-//console.log(imie);
+console.log(imie);
 
 var nazwisko = document.getElementById('nazwisko');
-//console.log(nazwisko);
+console.log(nazwisko);
 
 function wysylanieFormularza (e) {
      e.preventDefault();
          
     if(e.type == 'click') {
-        console.log('Imie' + e.type);
+        console.log('Imie: ' + imie.value + ' Nazwisko: ' + nazwisko.value);
     } else {
         console.log('nic');
        }
