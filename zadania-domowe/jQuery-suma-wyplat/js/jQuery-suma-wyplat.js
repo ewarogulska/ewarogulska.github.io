@@ -20,3 +20,5 @@ $(document).ready(function () {
 
     });
 });
+
+//żeby mieć pewność, że zamieni nam string na liczbę można użyć parsenInt

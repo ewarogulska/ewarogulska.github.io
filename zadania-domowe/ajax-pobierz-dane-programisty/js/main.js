@@ -2,15 +2,19 @@
 
 //var przycisk = document.getElementById("button");
 
-$("button").click(function() {
-    $.getJSON("https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php", function(data) {
+$("button").click(function () {
+    $.getJSON("https://akademia108.pl/kurs-front-end/ajax/1-pobierz-dane-programisty.php", function (data) {
         console.log(data);
-        
-$("body").append('<div id="dane-programisty">');
-$('div').append(data.imie).append("<br/>");
-$('div').append(data.nazwisko).append("<br/>");
-$('div').append(data.zawod).append("<br/>");
-$('div').append(data.firma);
+
+        $("body").append('<div id="dane-programisty">' + data.imie + " " + data.nazwisko + ", " + data.zawod + ", " + data.firma);
+
     });
 });
 
+
+
+//        $('div').append(data.imie).append("<br/>");
+//        $('div').append(data.nazwisko).append("<br/>");
+//        $('div').append(data.zawod).append("<br/>");
+//        $('div').append(data.firma);
+//                      dłuższa forma

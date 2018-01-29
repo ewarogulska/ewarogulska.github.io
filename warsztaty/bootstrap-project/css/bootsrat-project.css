@@ -1,0 +1,177 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    color: #777;
+    height: 200vh;
+}
+
+#main-nav {
+    transition: background .3s;
+}
+
+#main-nav a.navbar-brand {
+    color: #fff;
+    font-family: 'Droid Serif', sans-serif;
+    font-size: 2rem;
+}
+
+#main-nav .nav-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+}
+
+#main-nav .nav-item a:hover {
+    color: bisque;
+}
+
+#main-nav.scroll {
+    background-color: coral;
+}
+
+#main-nav.scroll .nav-item a:hover {
+    color: darkslategrey;
+}
+
+
+/*Main header START*/
+
+#main-header {
+    background-image: url(../img/maska.png), url(../img/header/pictures_on_the_wall.jpg);
+    height:100vh;
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+    padding-top: 20px;
+}
+
+#main-header .brightness {
+    ;
+}
+
+#main-header .btn {
+background-color: #0ed8d6;
+border-color: #0ed8d6;
+}
+
+#main-header .main-header-content {
+    text-align:center;
+    padding: 30vh;
+}
+
+
+/*Main header END*/
+
+/*services START*/
+#services {
+    height:70vh;
+    background-position:center;
+    background-size:cover;
+    padding-top:3%;
+    padding-bottom:5%;
+    overflow:hidden;
+    position:relative;
+}
+
+.webDevelopment > i, .eCommerce > i, .webDesign > i {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    background-color:#0ed8d6;
+    border-radius: 50%;
+    text-shadow: 1px 1px 1px #ccc;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+/*services END*/
+
+
+
+/*Portfolio START*/
+/*
+#portfolio {
+    background-color:beige;
+    height:70vh;
+    background-position:center;
+    background-size:cover;
+    padding-top: 20px;    
+    padding-top:3%;
+    padding-left:5%;
+    padding-bottom:5%;
+    padding-right:5%;
+    overflow:hidden;
+    position:relative;
+}
+
+#portfolio h2 {
+    text-align:center;
+}
+#portfolio p {
+    text-align:center;
+}
+*/
+/*Portfolio END*/
+
+
+/*Our team START*/
+#team {
+    height:70vh;
+    background-position:center;
+    background-size:cover;
+    padding-top: 20px;    
+    padding-top:3%;
+    padding-left:5%;
+    padding-bottom:5%;
+    padding-right:5%;
+    overflow:hidden;
+    position:relative;
+}
+
+#team h2 {
+    text-align:center;
+}
+#team p {
+    text-align:center;
+}
+
+
+/*Our team END*/
+
+
+/*Section Contact us START*/
+#contact {
+    background-image: url(../img/footer/world-map.jpg);
+    height:80vh;
+    background-position:center;
+    background-size:cover;
+    color:#fff;
+    padding-top: 20px;    
+    padding-top:3%;
+    padding-left:5%;
+    padding-bottom:5%;
+    padding-right:5%;
+    overflow:hidden;
+    position:relative;
+}
+
+#contact .btn {
+background-color: #0ed8d6;
+border-color: #0ed8d6;
+}
+
+#contact h2 {
+    text-align:center;
+}
+#contact p {
+    text-align:center;
+}
+
+#contact .contact-form {
+    width:50%;
+    float:left;
+    margin-bottom:10px;
+    border-radius: 5%;
+}
+/*Section Contact us END*/
