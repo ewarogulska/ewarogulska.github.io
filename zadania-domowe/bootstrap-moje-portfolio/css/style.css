@@ -1,0 +1,343 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #777;
+}
+
+section {
+	padding: 60px 0;
+}
+
+section .section-header {
+	margin-bottom: 70px;
+	text-align: center;
+	width: 100%;
+}
+
+section .section-header .section-title {
+	font-family: "Roboto", sans-serif;
+	color: #333;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+section .section-header .section-caption {
+	font-family: "Roboto", sans-serif;
+}
+
+section h3 {
+	font-family: "Roboto", sans-serif;
+	color: #333;
+	font-size: 1.2em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.img-circle {
+	width: 100%;
+	border-radius: 50%;
+}
+
+.social-link {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	line-height: 40px;
+	background-color: #222;
+	border: 1px solid #222;
+	border-radius: 50%;
+	font-size: 1.8em;
+	color: #fff;
+	transition: all .3s;
+	margin: 5px;
+	text-align: center;
+	padding: 0;
+}
+
+.social-link:hover {
+	background-color: #1ac056;
+	border: 1px solid #1ac056;
+	color: #fff;
+	padding: 0;
+}
+
+
+/* MAIN NAVIGATION start */
+
+#main-nav {
+	background-color: transparent;
+}
+
+#main-nav a.navbar-brand {
+	color: #fff;
+	font-family: 'Droid Serif', sans-serif;
+	font-size: 2em;
+}
+
+#main-nav .nav-item a {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	transition: all .3s;
+}
+
+#main-nav .nav-item a:hover {
+	color: #1ac056;
+}
+
+#main-nav.scroll {
+	background-color: rgba(26, 192, 86, 0.75);
+}
+
+#main-nav.scroll .nav-item a:hover {
+	color: #777;
+}
+
+
+/* MAIN NAVIGATION end */
+
+
+
+/* Main headres styles */
+
+#main-header {
+    background-image: url(../img/img/header-background.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+    padding-top: 20px;
+}
+
+#main-header .header-caption h1 {
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-size:7em;
+}
+
+#main-header .header-caption h1 span {
+    color: #1ac056;
+    font-weight: 300;
+}
+
+#main-header .header-caption h2 {
+    font-size:3em;
+    font-weight:300;
+}
+
+#main-header .header-caption .read-more {
+	background-color: #1ac056;
+	border: 1px solid #1ac056;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	transition: all .3s;
+	padding: 15px 30px;
+}
+
+#main-header .header-caption .read-more:hover {
+	background-color: #fff;
+	border: 1px solid #1ac056;
+	color: #1ac056;
+}
+
+
+/* Main headres styles - END*/
+
+
+/* Section ABOUT start */
+#about {
+    background-color: #f9fcfe;
+}
+
+#about h2 span {
+    color: #1ac056;
+}
+
+#about p {
+    text-align: left;
+}
+
+#about .img-thumbnail {
+    height: 40vh;
+}
+
+/* Section ABOUT - END */
+
+
+
+/* Section SKILLS start */
+
+#skills h2 span {
+    color: #1ac056;
+}
+
+#skills .fa {
+	font-size: 2.8em;
+	height: 80px;
+	width: 80px;
+	line-height: 80px;
+	border: 1px solid #1ac056;
+	border-radius: 50%;
+	color: #fff;
+	background-color: #1ac056;
+	transition: all .3s;
+}
+
+#skills .fa:hover {
+	color: #1ac056;
+	background-color: #fff;
+	transform: rotate(360deg);
+}
+
+
+/* Section SKILLS end */
+
+
+/* Section Portfolio */
+
+#portfolio {
+	background-color: #fff;
+}
+
+#portfolio h2 span {
+    color: #1ac056;
+}
+
+#portfolio .portfolio-item {
+	background-color: #fff;
+}
+
+#portfolio .portfolio-image {
+	overflow: hidden;
+}
+
+#portfolio .portfolio-item .portfolio-image-background {
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	transition: all .3s;
+}
+
+#portfolio .portfolio-item .portfolio-image-mask {
+	background-color: rgba(42, 61, 79, 0.8);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	cursor: pointer;
+	transition: all .3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-size: 2em;
+	color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask {
+	opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask p {
+	font-size: 12px;
+}
+
+#portfolio .portfolio-item .portfolio-image-background:hover .portfolio-image-mask h4 {
+	font-size: 14px;
+}
+
+#portfolio-image-background-1 {
+	background-image: url(../img/img/portfolio1.jpg);
+}
+
+#portfolio-image-background-2 {
+	background-image: url(../img/img/portfolio2.jpg);
+}
+
+#portfolio-image-background-3 {
+	background-image: url(../img/img/portfolio4.jpg);
+}
+
+/* Section Portfolio - END*/
+
+
+
+
+/* Section Contact */
+
+#contact {
+	background-color:#213b50;
+}
+
+#contact h2 span {
+    color: #1ac056;
+}
+
+#contact .section-header,
+#contact .section-header .section-title {
+	color: #fff;
+}
+
+#contact .contact-form .contact-form-column {
+	height: 220px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#contact input,
+#contact textarea {
+	text-transform: uppercase;
+	padding: 15px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 5px;
+}
+
+#contact input:not([type='submit']),
+#contact textarea {
+	border: 0px solid;
+}
+
+#contact textarea {
+	height: 100%;
+}
+
+#contact input[type='submit'] {
+	background-color: #1ac056;
+	border: 1px solid #1ac056;
+	color: #fff;
+	transition: all .3s;
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+#contact input[type='submit']:hover {
+	background-color: #fff;
+	border: 1px solid #1ac056;
+	color: #1ac056;
+}
+
+
+/* Section Contact - END */
+
+
+/* Footer Styles */
+
+#main-footer {
+	padding: 10px 0;
+    background-color: darkslategrey;
+    color: white;
+}
+
+#main-footer .copyright {
+	line-height: 20px;
+}
+
+#main-footer .copyright p:hover {
+    color: #1ac056;
+}
+
+/* Footer Styles - END */

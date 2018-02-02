@@ -1,0 +1,26 @@
+@media all and (max-width: 992px) {
+	.navbar-light .navbar-toggler {
+		color: #1ac056;
+		border-color: #1ac056;
+	}
+	
+	
+	#main-nav, #main-nav.scroll {
+		background-color: #fff;
+	}
+	
+	#main-nav a.navbar-brand {
+		color: #1ac056;
+	}
+	
+	#main-nav .nav-item {
+		text-align: right;
+		padding: 10px 0;
+		border-top: 1px solid rgba(119, 119, 119, 0.5);
+	}
+	
+	#main-nav .nav-item a {
+		color: #1ac056;
+	}
+}
+
